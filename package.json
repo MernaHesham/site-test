@@ -20,5 +20,10 @@
   "homepage": "https://github.com/MernaHesham/site-test#readme",
   "devDependencies": {
     "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.4.0",
+    "popper.js": "^1.12.9"
   }
 }
