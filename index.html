@@ -14,14 +14,14 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>coursera frontend bootstrap</title>
   </head>
 
   <body>
     <header class="jumbotron">
       <div class="container">
-        <div class="row">
+        <div class="row row-header">
           <div class="col-12 col-sm-6">
             <!-- for extra small it will occupy full width -->
             <h1>Ristorante con Fusion</h1>
@@ -41,7 +41,8 @@
     </header>
 
     <div class="container">
-      <div class="row">
+      <div class="row row-content align-items-center">
+        <!-- align items center is to align the whole row all the col center -->
         <div class="col-12 col-sm-4 order-sm-last col-md-3">
           <h3>Our Lipsmacking Culinary Creations</h3>
         </div>
@@ -59,7 +60,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row row-content align-items-center">
         <div class="col-12 col-sm-4 col-md-3">
           <h3>This Month's Promotions</h3>
         </div>
@@ -74,7 +75,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row row-content align-items-center">
         <div class="col-12 col-sm-4 order-sm-last col-md-3">
           <h3>Meet our Culinary Specialists</h3>
         </div>
@@ -91,14 +92,14 @@
       </div>
     </div>
 
-    <footer>
+    <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="col-4 offset-1 col-sm-3">
             <!-- offset-1 will leave the first col in the 12 cols empty -->
             <!-- notice that the sum total col we used in the contents are 7+4=11 in extra small and 5+2+4=11  -->
             <h5>Links</h5>
-            <ul>
+            <ul class="list-unstyled">
               <li><a href="./index.html">Home</a></li>
               <li><a href="./aboutus.html">About</a></li>
               <li><a href="#">Menu</a></li>
@@ -116,8 +117,10 @@
               Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
             </address>
           </div>
-          <div class="col-12 col-sm-3">
-            <div>
+          <div class="col-12 col-sm-3 align-self-center">
+            <!-- align self center is to align a single col and ot the whole row -->
+            <div class="text-center">
+              <!-- to align the social -->
               <a href="http://google.com/+">Google+</a>
               <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
               <a href="http://www.linkedin.com/in/">LinkedIn</a>
@@ -127,7 +130,8 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
+          <!-- justify is to align the copyright in the center horizontaly -->
           <div class="col-auto">
             <p>© Copyright 2018 Ristorante Con Fusion</p>
           </div>
