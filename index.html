@@ -20,9 +20,9 @@
         <!-- if i didnt use fixed-bar the nav will scroll down with me when i scroll -->
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-            <a class="navbar-brand" href="index.html">Ristorante Con Fusion</a>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="./img/logo.png" height="30" width="40"></a>
             <!-- this will be visible always -->
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
@@ -34,8 +34,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Content</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span
+                                class="fa fa-address-card fa-lg"></span> Content</a></li>
                 </ul>
             </div>
         </div>
@@ -48,10 +50,13 @@
                     <h1>Ristorante con Fusion</h1>
                     <!-- and for small and above sizes it will occupy only half of width -->
                     <p>
-                        We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!
+                        We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
+                        lipsmacking creations will tickle your culinary senses!
                     </p>
                 </div>
-                <div class="col-12 col-sm"></div>
+                <div class="col-12 col-sm align-self-center">
+                    <img src="img/logo.png" class="img-fluid">
+                </div>
                 <!-- for extra small it will get the full width -->
                 <!-- which means it will be stacked under the above col -->
                 <!-- and for small and above sizes it will get the remainng col here is 6 col -->
@@ -70,10 +75,17 @@
             <!-- we will do this in the first and third row to give it a little design -->
             <div class="col col-sm order-sm-first col-md">
                 <!-- will get the remaining width -->
-                <h2>Uthappizza</h2>
-                <p class="d-none d-sm-block">
-                    A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.
-                </p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/uthappizza.png"
+                        alt="Uthappizza">
+                    <div class="media-body">
+                        <h2 class="mt-0">Uthappizza</h2>
+                        <p class="d-none d-sm-block"> a unique dskjdsj jnsdk
+                            dkjbaskskjdks
+                            ksdbkdsbkj
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -84,7 +96,9 @@
             <div class="col col-sm col-md">
                 <h2>Weekend Grand Buffet</h2>
                 <p class="d-none d-sm-block">
-                    Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person
+                    Featuring mouthwatering combinations with a choice of five different salads, six enticing
+                    appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All
+                    for just $19.99 per person
                 </p>
             </div>
         </div>
@@ -94,11 +108,16 @@
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p class="d-none d-sm-block">
-                    Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences.
-                </p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/alberto.png"
+                        alt="Alberto Somayya">
+                    <div class="media-body">
+                        <h2 class="mt-0">Alberto</h2>
+                        <h4>Executive Chef</h4>
+                        <p class="d-none d-sm-block">Award Winning three star Michein chef with wide</p>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -120,24 +139,31 @@
                 <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-              121, Clear Water Bay Road<br />
-              Clear Water Bay, Kowloon<br />
-              HONG KONG<br />
-              <span class="fa fa-phone fa-lg"></span>: +852 1234 5678<br />
-              <span class="fa fa-fax fa-lg"></span> +852 8765 4321<br />
-              <span class="fa fa-envelope fa-lg"></span> <a href="mailto:confusion@food.net">confusion@food.net</a>
-            </address>
+                        121, Clear Water Bay Road<br />
+                        Clear Water Bay, Kowloon<br />
+                        HONG KONG<br />
+                        <span class="fa fa-phone fa-lg"></span>: +852 1234 5678<br />
+                        <span class="fa fa-fax fa-lg"></span> +852 8765 4321<br />
+                        <span class="fa fa-envelope fa-lg"></span> <a
+                            href="mailto:confusion@food.net">confusion@food.net</a>
+                    </address>
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
                     <!-- align self center is to align a single col and ot the whole row -->
                     <div class="text-center">
                         <!-- to align the social -->
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><span class="fa fa-google-plus fa-lg"></span></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook fa-lg"></span></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><span class="fa fa-linkedin fa-lg"></span></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><span class="fa fa-twitter fa-lg"></span></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><span class="fa fa-youtube fa-lg"></span></a>
-                        <a class="btn btn-social-icon btn-icon" href="mailto:"><span class="fa fa-envelope-o fa-lg"></span></a>
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><span
+                                class="fa fa-google-plus fa-lg"></span></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span
+                                class="fa fa-facebook fa-lg"></span></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><span
+                                class="fa fa-linkedin fa-lg"></span></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><span
+                                class="fa fa-twitter fa-lg"></span></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><span
+                                class="fa fa-youtube fa-lg"></span></a>
+                        <a class="btn btn-social-icon btn-icon" href="mailto:"><span
+                                class="fa fa-envelope-o fa-lg"></span></a>
                     </div>
                 </div>
             </div>
